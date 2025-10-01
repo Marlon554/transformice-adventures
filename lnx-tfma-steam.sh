@@ -106,7 +106,7 @@ for steam_root in "${final_roots[@]}"; do
     continue
   fi
 
-  # Append injected block (no backup)
+  # Append injected block
   cat >> "$main_file" <<'EOF'
 
 /* ---- injected by lnx-tfma-steam.sh - load remote patch ---- */
