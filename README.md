@@ -1,15 +1,20 @@
 # Transformice Adventures
-This is my job to help the Transformice Adventures community, a game that was developed in HTML 5 by Atelier 801 and that is still in the demo version, containing several bugs that disturb the players. My efforts are to fix most of the bugs present in the game.
+An adaptation of Hadaward's Transformice Adventures patch for Linux.
 
-I intend to release extensions for browsers that support Tampermonkey and Greasemonkey, as well as fixes for the steam version and create my own standalone.
+To install it, open your terminal, then clone this repository: 
 
-## Steam
-To fix the bugs in the steam standalone, just download the executable file [win/linux]_tfma_steam.exe and run it only once. It will get the installation location of the game and make the necessary changes to load the patch.js file. The binary was developed in Nim and its code is available at [steam](/../../tree/steam) branch
+```bash
+git clone https://github.com/Marlon554/transformice-adventures
+```
 
-:warning: Only windows supported atm.
+Change directory (cd):
 
-## Browser Extensions
-Both GreaseMonkey (FireFox) and TamperMoneky (Chrome) are now supported. The script used is compatible with both extensions and is available to anyone on the [extension](/../../tree/extension) branch
+```bash
+cd transformice-adventures
+```
 
-## patch.js
-This file is dynamically loaded by extensions and contains code that is injected into the game to make corrections. The steam version has its standalone modified to load this file using the same principle as the extensions.
+Execute the bash script:
+
+```bash
+./lnx-tfma-steam.sh
+```
