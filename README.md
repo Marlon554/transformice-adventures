@@ -4,7 +4,7 @@ An adaptation of Hadaward's Transformice Adventures patch for Linux.
 To install it, open your terminal, then clone this repository: 
 
 ```bash
-git clone https://github.com/Marlon554/transformice-adventures
+git clone https://github.com/Marlon554/transformice-adventures.git transformice-adventures
 ```
 
 Change directory (cd):
