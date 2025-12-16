@@ -13,8 +13,9 @@ Change directory (cd):
 cd transformice-adventures
 ```
 
-Execute the bash script:
+Change permissions for the bash script and execute it:
 
 ```bash
+chmod +x lnx-tfma-steam.sh
 ./lnx-tfma-steam.sh
 ```
